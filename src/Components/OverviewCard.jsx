@@ -1,7 +1,7 @@
 import React from 'react'
 import upRow from '../assets/images/icon-up.svg'
 import downRow from '../assets/images/icon-down.svg'
-
+import facebookLogo from '../assets/images/icon-facebook.svg'
 const networkColor = {
   Facebook: 'bg-Facebook',
   Twitter: 'bg-Twitter',
@@ -21,7 +21,7 @@ export const OverviewCard = ({ network, username, audience, audienceType, today,
     <article className='bg-Light-Grayish-Blue w-full h-[216px] rounded-[10px] mb-4 mx-auto overflow-hidden text-center dark:bg-Dark-Desaturated-Blue hover:brightness-95 hover:cursor-pointer dark:hover:brightness-125'>
       <div className={`${networkColor[network]} rounded-t-[10px]  h-1.5 mb-8`}></div>
       <div className='flex items-center place-content-center mb-[28px] gap-2'>
-        <img src={image} />
+        <img src={facebookLogo} />
         <p className=' text-x text-Dark-Grayish-Blue font-bold'>{username}</p>
       </div>
       <p className='text-5xl text-Dark-Blue font-bold mb-2 dark:text-white'>{toThousand(audience)}</p>
