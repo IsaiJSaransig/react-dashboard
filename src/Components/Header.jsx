@@ -3,12 +3,12 @@ import React from 'react'
 export const Header = () => {
 
   function handleToggle() {
-    const body = document.querySelector('body')
+    const body = document.querySelector('html')
     body.classList.toggle('dark')
   }
 
   return (
-    <header className='bg-Very-Pale-Blue h-[235px] rounded-b-[20px] pt-8 px-6 dark:bg-Very-Dark-Blue'>
+    <header className='bg-Very-Pale-Blue h-[235px] rounded-b-[20px] pt-8 px-6 dark:bg-Very-Dark-Blue-Top'>
       <h1 className='text-Very-Dark-Blue text-2xl font-bold mb-1 dark:text-Very-Pale-Blue'>Social Media Dashboard</h1>
       <p className='text-Dark-Grayish-Blue font-bold mb-6 dark:text-Desaturated-Blue' >Total Followers: 23,004</p>
       <hr className='bg-black mb-[19px]' />
