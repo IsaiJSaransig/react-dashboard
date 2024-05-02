@@ -98,7 +98,7 @@
         },
         {
             "id":7,
-            "network": "Youtube",
+            "network": "YouTube",
             "statsType": "Likes",
             "stats": "107",
             "isUp":false,
@@ -107,7 +107,7 @@
         },
         {
             "id":8,
-            "network": "Youtube",
+            "network": "YouTube",
             "statsType": "Total Views", 
             "stats": "1407",
             "isUp":false,
